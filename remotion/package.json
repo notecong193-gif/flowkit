@@ -4,7 +4,8 @@
   "version": "0.1.0",
   "scripts": {
     "studio": "remotion studio src/index.ts",
-    "render": "remotion render src/index.ts FlowKitVideo"
+    "render": "remotion render src/index.ts FlowKitVideo",
+    "render:demo": "remotion render src/index.ts HandDrawnDemo out/hand-drawn-demo.mp4"
   },
   "dependencies": {
     "@remotion/cli": "^4.0.0",
